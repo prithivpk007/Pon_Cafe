@@ -12,7 +12,7 @@
     },
     {
       "id": "usr-cust-1",
-      "name": "Karthik Raja",
+      "name": "Manikandan",
       "email": "customer@example.com",
       "phone": "9876543210",
       "password": "$2b$10$QQ0Y1iYDnsBUIUA/jsZDeOg2a/A5iakKOvyAAWKJHwb.D862BiFdW",
@@ -28,7 +28,7 @@
       "category": "Cakes",
       "description": "Decadent Dutch chocolate sponge layered with smooth chocolate ganache and crowned with artisanal chocolate curls.",
       "price": 550,
-      "image": "http://127.0.0.1:5000/uploads/upload-1789454105365-30307147.jpg",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
       "stock": 10,
       "availability": "available",
       "featured": true,
@@ -125,7 +125,7 @@
       "description": "Velvety crimson sponge with a hint of cocoa, frosted with our signature smooth cream cheese frosting.",
       "price": 750,
       "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=800&q=80",
-      "stock": 9,
+      "stock": 8,
       "availability": "available",
       "featured": true,
       "isNew": false,
@@ -677,6 +677,46 @@
     }
   ],
   "orders": [
+    {
+      "id": "PON-41315",
+      "customerName": "manikandan r",
+      "phone": "9876543210",
+      "email": "",
+      "deliveryType": "delivery",
+      "address": "1/123, Chennimalai main road, Perundurai",
+      "pincode": "638052",
+      "preferredDate": "2026-09-30",
+      "preferredTime": "05:00 PM - 06:00 PM",
+      "notes": "",
+      "items": [
+        {
+          "productId": "prod-cake-4",
+          "name": "Red Velvet Cake",
+          "category": "Cakes",
+          "price": 750,
+          "quantity": 1,
+          "subtotal": 750,
+          "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=800&q=80",
+          "selectedWeight": "0.5 kg (₹400)"
+        }
+      ],
+      "subtotal": 750,
+      "deliveryCharge": 0,
+      "discount": 0,
+      "totalAmount": 750,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "Order Placed",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-09-29T10:59:59.271Z",
+          "note": "Order placed online via Home Delivery"
+        }
+      ],
+      "createdAt": "2026-09-29T10:59:59.271Z",
+      "updatedAt": "2026-09-29T10:59:59.271Z"
+    },
     {
       "id": "PON-32294",
       "userId": "usr-cust-1",
